@@ -1,0 +1,3 @@
+dropboxtransfertool.server.AppModuleFactoryMachine
+dropboxtransfertool.server.rest.HelloResourceFactoryMachine
+dropboxtransfertool.server.rest.HelloResourceRouterFactoryMachine

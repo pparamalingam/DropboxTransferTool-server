@@ -1,0 +1,110 @@
+2015-06-06 21:24:10,892 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-06-06 21:24:11,355 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2015-06-06 21:24:11,359 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2015-06-06 21:24:12,454 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 5 sources compiled in 1.006 s
+2015-06-06 21:24:12,814 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\Preshoth\IdeaProjects\DropboxTransferTool-server\dropboxtransfertool-server\.
+2015-06-06 21:24:12,954 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2015-06-06 21:24:17,260 [qtp1957502751-27] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2015-06-06 21:24:17,446 [qtp1957502751-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 353.0 ms
+2015-06-06 21:24:17,842 [qtp1957502751-28] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 2.774 ms
+2015-06-06 21:24:17,878 [qtp1957502751-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 818.4 ?s
+2015-06-06 21:24:21,722 [qtp1957502751-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 215.5 ms
+2015-06-06 21:24:21,975 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 9.184 ms
+2015-06-06 21:24:21,979 [qtp1957502751-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 7.078 ms
+2015-06-06 21:24:34,447 [qtp1957502751-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 6.818 ms
+2015-06-06 21:24:34,455 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 6.299 ms
+2015-06-06 21:24:34,497 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 9.979 ms
+2015-06-06 21:24:34,518 [qtp1957502751-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 15.22 ms
+2015-06-06 21:24:34,633 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 38.78 ms
+2015-06-06 21:24:34,696 [qtp1957502751-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 18.67 ms
+2015-06-06 21:24:34,698 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 40.75 ms
+2015-06-06 21:24:34,738 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 14.73 ms
+2015-06-06 21:24:34,769 [qtp1957502751-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 24.81 ms
+2015-06-06 21:24:34,820 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 10.28 ms
+2015-06-06 21:24:34,833 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 10.04 ms
+2015-06-06 21:24:34,872 [qtp1957502751-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 17.53 ms
+2015-06-06 21:24:34,888 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 10.16 ms
+2015-06-06 21:24:34,939 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 10.79 ms
+2015-06-06 21:24:34,950 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 35.37 ms
+2015-06-06 21:24:34,963 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 37.19 ms
+2015-06-06 21:24:34,946 [qtp1957502751-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 5.784 ms
+2015-06-06 21:25:28,819 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 10.52 ms
+2015-06-06 21:25:28,853 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 44.64 ms
+2015-06-06 21:25:28,900 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.i18n.Messages.notes.json >> NOT_FOUND - 3.025 ms
+2015-06-06 21:25:28,935 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? httpMethod=GET&path=/i18n/labels.json >> OK - 33.66 ms
+2015-06-06 21:25:42,356 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 28.43 ms
+2015-06-06 21:25:42,389 [qtp1957502751-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 10.28 ms
+2015-06-06 21:25:42,394 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 8.123 ms
+2015-06-06 21:25:42,397 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 17.86 ms
+2015-06-06 21:25:42,425 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 7.261 ms
+2015-06-06 21:25:42,443 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 8.268 ms
+2015-06-06 21:25:42,474 [qtp1957502751-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 9.581 ms
+2015-06-06 21:25:42,479 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 9.449 ms
+2015-06-06 21:25:42,510 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 8.240 ms
+2015-06-06 21:25:42,510 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 10.78 ms
+2015-06-06 21:25:42,558 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 6.540 ms
+2015-06-06 21:25:42,577 [qtp1957502751-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 8.440 ms
+2015-06-06 21:25:42,590 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 21.78 ms
+2015-06-06 21:26:07,888 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 10.89 ms
+2015-06-06 21:26:07,915 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 41.04 ms
+2015-06-06 21:26:07,940 [qtp1957502751-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? httpMethod=GET&path=/message >> OK - 12.65 ms
+2015-06-06 21:26:16,948 [qtp1957502751-24] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "restx" }
+2015-06-06 21:26:16,949 [qtp1957502751-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> UNAUTHORIZED - 3.045 ms
+2015-06-06 21:26:39,289 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 17.06 ms
+2015-06-06 21:26:39,575 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.433 ms
+2015-06-06 21:26:39,576 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.558 ms
+2015-06-06 21:26:39,600 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 3.283 ms
+2015-06-06 21:26:39,603 [qtp1957502751-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.816 ms
+2015-06-06 21:26:39,733 [qtp1957502751-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 24.03 ms
+2015-06-06 21:26:39,767 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 10.45 ms
+2015-06-06 21:26:39,775 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 18.13 ms
+2015-06-06 21:26:39,780 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 8.310 ms
+2015-06-06 21:26:39,806 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 6.454 ms
+2015-06-06 21:26:39,806 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 10.67 ms
+2015-06-06 21:26:39,842 [qtp1957502751-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 6.821 ms
+2015-06-06 21:26:39,844 [qtp1957502751-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 7.237 ms
+2015-06-06 21:26:39,874 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 5.842 ms
+2015-06-06 21:26:39,876 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 7.789 ms
+2015-06-06 21:26:39,884 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 4.679 ms
+2015-06-06 21:26:39,892 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 5.969 ms
+2015-06-06 21:26:39,910 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 7.587 ms
+2015-06-06 21:26:55,353 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 6.752 ms
+2015-06-06 21:26:55,376 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 29.40 ms
+2015-06-06 21:26:55,383 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.i18n.Messages.notes.json >> NOT_FOUND - 2.648 ms
+2015-06-06 21:26:55,395 [qtp1957502751-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? httpMethod=GET&path=/i18n/labels.json >> OK - 8.850 ms
+2015-06-06 21:27:03,703 [qtp1957502751-23] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "restx" }
+2015-06-06 21:27:03,706 [qtp1957502751-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> OK - 5.960 ms
+2015-06-06 21:27:07,159 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 22.65 ms
+2015-06-06 21:27:07,187 [qtp1957502751-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 7.553 ms
+2015-06-06 21:27:07,188 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 9.087 ms
+2015-06-06 21:27:07,195 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 12.23 ms
+2015-06-06 21:27:07,229 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 7.854 ms
+2015-06-06 21:27:07,229 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 9.332 ms
+2015-06-06 21:27:07,236 [qtp1957502751-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 13.11 ms
+2015-06-06 21:27:07,260 [qtp1957502751-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 6.647 ms
+2015-06-06 21:27:07,260 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 7.433 ms
+2015-06-06 21:27:07,298 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 12.11 ms
+2015-06-06 21:27:07,296 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 9.988 ms
+2015-06-06 21:27:07,316 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 5.905 ms
+2015-06-06 21:27:07,330 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 6.712 ms
+2015-06-06 21:27:09,510 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 8.102 ms
+2015-06-06 21:27:09,533 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 30.17 ms
+2015-06-06 21:27:09,550 [qtp1957502751-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? httpMethod=GET&path=/message >> OK - 9.738 ms
+2015-06-06 21:27:12,185 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 6.383 ms
+2015-06-06 21:27:12,211 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 33.67 ms
+2015-06-06 21:27:12,219 [qtp1957502751-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? httpMethod=GET&path=/hello >> OK - 13.22 ms
+2015-06-06 21:27:27,554 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello ? who=restx >> OK - 3.697 ms
+2015-06-06 21:27:43,103 [qtp1957502751-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.901 ms
+2015-06-06 21:27:43,103 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.258 ms
+2015-06-06 21:27:45,839 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.326 ms
+2015-06-06 21:27:45,841 [qtp1957502751-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.721 ms
+2015-06-06 21:27:45,857 [qtp1957502751-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 3.164 ms
+2015-06-06 21:27:45,859 [qtp1957502751-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.656 ms
+2015-06-06 21:27:46,068 [qtp1957502751-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 90.12 ms
+2015-06-06 21:27:46,069 [qtp1957502751-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 89.35 ms
